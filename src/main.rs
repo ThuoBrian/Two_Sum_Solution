@@ -8,7 +8,7 @@ fn main() {
         Some((index1, index2)) => {
             println!("Because nums[{}] + nums[{}] == {} ", index1, index2, target)
         }
-        None => println!("Target wasn't found"),
+        None => println!("the index of the sum target wasn't found"),
     }
 }
 
